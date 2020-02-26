@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXMasonryPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="root" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <BorderPane style="-fx-background-color: WHITE;">
+        <center>
+            <ScrollPane fx:id="scrollPane" fitToWidth="true" hbarPolicy="NEVER" BorderPane.alignment="CENTER">
+                <JFXMasonryPane fx:id="masonryPane" HSpacing="10.0" VSpacing="10.0" cellHeight="10.0" cellWidth="10.0">
+                    <padding>
+                        <Insets bottom="16.0" left="40.0" right="16.0" top="16.0" />
+                    </padding>
+                </JFXMasonryPane>
+            </ScrollPane>
+        </center>
+        <top>
+            <GridPane BorderPane.alignment="CENTER">
+                <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+                <children>
+                    <JFXButton buttonType="RAISED" onAction="#onNewProductClicked" style="-fx-background-color: #43a047; -fx-background-radius: 20;" text="New Product" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+                        <font>
+                            <Font name="Product Sans" size="16.0" />
+                        </font>
+                        <padding>
+                            <Insets bottom="8.0" left="10.0" right="10.0" top="8.0" />
+                        </padding>
+                        <graphic>
+                            <SVGPath content="M 14.394531 2.273438 L 5.304688 2.273438 C 3.636719 2.273438 2.273438 3.636719 2.273438 5.304688 L 2.273438 14.394531 C 2.273438 16.058594 3.636719 17.425781 5.304688 17.425781 L 14.394531 17.425781 C 16.058594 17.425781 17.425781 16.058594 17.425781 14.394531 L 17.425781 5.304688 C 17.425781 3.636719 16.058594 2.273438 14.394531 2.273438 Z M 14.394531 10.605469 L 10.605469 10.605469 L 10.605469 14.394531 L 9.089844 14.394531 L 9.089844 10.605469 L 5.304688 10.605469 L 5.304688 9.089844 L 9.089844 9.089844 L 9.089844 5.304688 L 10.605469 5.304688 L 10.605469 9.089844 L 14.394531 9.089844 Z" fill="WHITE" />
+                        </graphic>
+                    </JFXButton>
+                </children>
+                <BorderPane.margin>
+                    <Insets bottom="5.0" left="10.0" right="10.0" top="10.0" />
+                </BorderPane.margin>
+            </GridPane>
+        </top>
+    </BorderPane>
+</StackPane>

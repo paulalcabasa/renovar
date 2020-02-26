@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_color"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/navHome">
+    </ImageView>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/navCollections"
+        style="@style/Widget.DNA.Button.TextButton"
+        android:textAllCaps="false"
+        android:text="Collections" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/navFaceCare"
+        style="@style/Widget.DNA.Button.TextButton"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:text="ReDefine" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.DNA.Button.TextButton"
+        android:id="@+id/navBodyCare"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:text="ReGenerate" />
+
+    <View
+        android:layout_width="56dp"
+        android:layout_height="1dp"
+        android:layout_margin="16dp"
+        android:background="@color/colorGold"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.DNA.Button.TextButton"
+        android:text="Therapy Scheduler"
+        android:textAllCaps="false"
+        android:id="@+id/navChange"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.DNA.Button.TextButton"
+        android:text="My Face Changed"
+        android:textAllCaps="false"
+        android:id="@+id/navFace"/>
+
+    <View
+        android:layout_width="56dp"
+        android:layout_height="1dp"
+        android:layout_margin="16dp"
+        android:background="@color/colorGold"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.DNA.Button.TextButton"
+        android:id="@+id/navAbout"
+        android:textAllCaps="false"
+        android:text="About Us" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.DNA.Button.TextButton"
+        android:id="@+id/navService"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        android:text="Customer Service" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.DNA.Button.TextButton"
+        android:id="@+id/navProductRegistration"
+        android:textAllCaps="false"
+        android:text="Product Registration" />
+
+</merge>

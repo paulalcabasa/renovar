@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fdd835</color>
+    <color name="colorPrimaryDark">#c89485</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGold">#E0B1A1</color>
+    <color name="toolbarIconColor">#463417</color>
+    <color name="colorRoseGold">#c89485</color>
+    <color name="colorDarkBlue">#03072c</color>
+</resources>

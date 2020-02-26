@@ -1,0 +1,77 @@
+* {
+    -fx-primary : #FFF;
+    -fx-secondary : #FFFF8D;
+    -fx-primarytext : #B2B2B2;
+    -fx-blue: #1976D2;
+    -fx-red: #D11A1A;
+    -fx-white: #FFF;
+    -fx-gold: #FBB02F;
+    -fx-black: #000;
+    -fx-gray: #E8E8E8;
+    -fx-light-gray: #95989A;
+    -fx-caption-color: #57595a;
+}
+
+.pane-background{
+    -fx-background-image: url("/resources/images/login_background.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100%;
+    -fx-background-position: center center;
+}
+
+.root{
+    -fx-background-color: -fx-primary;
+}
+
+.cardShadowBox{
+    -fx-effect: dropshadow(three-pass-box, #bcbcbc, 2, 0, 0, 0);
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-color: BLACK;
+    -fx-border-width: 0.1;
+    -fx-border-radius: 5;
+}
+
+.cardShadow{
+     -fx-effect: dropshadow(three-pass-box, #bcbcbc, 3, 0, 0, 0);
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+}
+
+.cardShadowDashBoard{
+    -fx-effect: dropshadow(three-pass-box, #bcbcbc, 3, 0, 0, 0);
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-color: BLACK;
+    -fx-border-width: 0.1;
+    -fx-border-radius: 5;
+}
+
+
+.cardWithShadowTransparent{
+    -fx-effect: dropshadow(three-pass-box, gray, 10, 0, 0, 0);
+    -fx-background-color: transparent;
+    -fx-background-insets: 10;
+    -fx-background-radius: 10;
+}
+
+.questions{
+    -fx-background-image: url(/icons/ic_questions.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 30 30;
+}
+
+.students{
+    -fx-background-image: url(/icons/ic_student.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 30 30;
+}
+
+.result{
+    -fx-background-image: url(/icons/ic_result.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 30 30;
+}

@@ -1,0 +1,340 @@
+<resources>
+    <string name="app_name">Renovar</string>
+    <string name="title_activity_main_navigation">MainNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_schedule">ScheduleActivity</string>
+
+    <string name="heating">
+        Applying heat to an area increases the blood flow, bringing along with proteins and oxygen. The overall benefits of heat therapy are very prevalent. This therapy method is great to decrease joint stiffness, reduce pain and inflammation, and relieve muscle spasms. Heating therapy may be used as a skin Rejuvenator by heating up the muscle tissues and helping in the increase of blood circulation. Heating Therapy is relaxing and a mild pain reliever, safer than any pain-killing drug and possibly as effective in some cases. Although far from proven or miraculous, it can probably and taking the edge off several kinds of pain, mostly duller and persistent pains associated with stiffness, cramping, and neuropathic sensitivity. It is most commonly used for rehabilitation purposes. Heat create higher tissue temperatures, which produces vasodilation that increases the supply of oxygen and nutrients and the elimination of carbon dioxide and metabolic waste. It is also useful for muscle spasms, myalgia, fibromyalgia, contracture, bursitits.
+    </string>
+
+    <string name="ultrasonic">The application of ultrasonic frequency is commonly used by salon professionals to increase cellular turnover, plump up and smooth out fine lines and wrinkles, tighten sagging skin, relieve puffy eyes, reduce the appearance of cellulite, improve acne, tighten enlarged pores, fade dark eye circles, freckles and old age spots and even repair scar damage. The process is safe, painless and gentle and is can even be used by sensitive skin types such as those with Rosacea.High level sound wave technology is used to penetrate deep below the surface of the skin promoting cellular renewal and repair, toning muscles, increasing blood circulation, encouraging lymphatic drainage, combating puffiness and swelling and improving skin care product penetration. The thousands of pulses used in Micro Vibration Therapy work together to loosen dirt and in turn reduce the size of pores. It also helps reduce puffiness, improve blood flow and skin elasticity.</string>
+    <string name="galvanic">Galvanic skin treatments are used to tone up muscles, promote blood circulation, increase cell metabolism and activate enzymes. This treatment helps healing after surgical and non-surgical procedures and improves the quality and firmness of skin. Galvanic Facials involves the use of mild electric currents consisting of positive and negative ions to refresh, stimulate and rejuvenate the skin. It uses a process by the scientific name of to transport electrically charged particles (ions) into the skin through gels that are positively or negatively charged. The charged ingredients are carried into the deeper layers of the skin and concentrated there effects and benefits A galvanic facial can be considered a "non-surgical facelift", and results include smoothed out wrinkles, tightened muscles and increased blood circulation, which nourishes the skin cells. Galvanic facials can be very beneficial for individuals with very oily and/or acetic skin.</string>
+    <string name="vibration">Electrical Stimulation is sometimes given to patients with facial palsy. The facial nerve normally emits electrical impulses to give muscles their tone and shape. When the facial nerve is damaged the muscle no longer receives these messages and as a result the muscles become weak and floppy. External electrical stimulation can try and mimic these electrical impulses and help restore muscle tone.It should only be used under the guidance of a therapist with specialist training in the management of facial palsy. Use of electrical stimulation should be closely monitored by the therapist. Patients should not try this treatment without supervision as there are some indications that it may cause harm when used incorrectly.</string>
+    <string name="radio">Radio Frequency is any of the electromagnetic wave frequencies that lie in the range extending from around 3 kHz to 300 GHz, which include those frequencies used for communications or radar signals. Radio frequency skin tightening (RF) is an aesthetic technique that uses RF energy to heat tissue and stimulate collagen production in order to reduce the appearance of fine lines and loose skin. The technique induces tissue remodeling and production of new collagen and elastin In the form of radiating waves or electrical currents, has been used in medical treatments for over 75 years. Generally for minimally invasive surgeries using radiofrequency ablation including the treatment of sleep apnea. Radio frequencies at non-ablation energy levels are commonly used as a part of aesthetic treatments that can tighten skin, reduce fat by lipolysis and also apoptosis, or promote healing.</string>
+    <string name="fit">Infrared rays are a form of electromagnetic radiation like light that is invisible to the naked eye, also known as Bioenergetic Rays. Our body receives and also emits infrared waves, which penetrate organic substances and water heating them evenly as a result. These toxins are generally acidic and if they accumulate they can also block blood circulation. The capillaries can be expanded and the toxins dissolved using infrared waves; the toxins are then expelled through the urine and perspiration. These rays are absorbed selectively by tissues needing an energy boost.</string>
+    <string name="led">In the last few years advances in skin and health care have grown substantly, but nothing has received as much attention as the use of LED light (Light - Emitting Diodes) therapy. The light therapy is used as a relaxing, painless treatment add-on to correct skin challenges. These include conditions related to anti-aging, acne, inflammation and skin pigment. LED light is being studied around the world as a solution for wrinkles, age spots, whitening, psoriasis, and wound regeneration. In fact, it was studied in space by astronauts. Scientists are confirming that red, near infrared light and different shades of LED light has a positive effect on skin cells. With the development of technology, people are no longer confined to the use of generic drugs to nursing care of the skin membrane. Today the worlds most popular skin care method treatment is Photon rejuvenation. International Medical Organization confirmed the use of specific wavelengths of light, through close exposure mode can enhance the vitality of skin cells and tissues, to better improve the skin condition.</string>
+    <string name="about">It has been for many years that people neglect their appearance and health because they have not yet discovered the most efficient and up-to-date way to handle it.
+        \n\nWe believe that every human being is entitled to discover a new world of advanced technology that will contradict the old and cumbersome habits in the worlds of wellness.
+        \n\nThe goal of Renovar is to build a network of health and beauty treatments around the world, as a leading company in the field of wholesale, retail and distribution of advanced equipment
+        \n\nSince 2012, Renovar has been specializing in the health and beauty industry with the help of innovative technologies to create the highest technological portable beatification devices as well as FDA approved physiotherapy devices at world-class standards to help people achieve maximum results in pain relief and skin beautification in the comfort of their own homes.
+        \n\nOur affiliates also include beauty and spa salons. Renovar believes that quality is of utmost importance and that no detail is too small for us.
+        \n\nOur team at Renovar are experts in skin health as well as body care and fitness and follow their expertise strongly to stay ahead of the latest health and beauty developments.</string>
+    <string name="philosophy">Renovar\'s mission is to help relieve pain and issues related to cernain conditions such as diabetes and arthritis without the use of surgical or extreme physiotherapy methods which damages the body in the long run.
+        \n\nTherefore, Renovar tries to save the money of consumers by providing them with FDA approved high technological physiotherapy devices which allow the consumer to remain portable and save consts ons surgery and constant appointments. Athletes and physiotherapists make use of Renovar\'s devices too and is suitable for the whole family.
+        \n\nThe team at Renovar are experts in skin health as well as body care and fitness and follow their expertise strongly to stay ahead of the latest health and beauty developments.
+
+</string>
+    <string name="blue_light1">
+        <li> A Prospective, Randomized, Open and Comparative Study to Evaluate the Safety and Efficacy of Blue Light Treatment Versus a Topical Benzoyl Peroxide 5% Formulation in Patients with Acne grade II and III. </li>
+        <li>\n\n Self-diagnosis of Mild-to-Moderate Acne for Self Treatment with Blue Light Therapy. </li>
+        <li>\n\n Clinical Efficacy of Self-applied Blue Light Therapy for Mild-to-Moderate Facial Acne. </li>
+        <li>\n\n Light-emitting Diode 415 nm in the Treatment of Inflammatory Acne: An Open-label, Multicentric, Pilot Investigation. </li>
+        <li>\n\n An Open Study to Determine the Efficacy of Blue Light in the Treatment of Mild to Moderate Acne. </li>
+        <li>\n\n A New Targeted Blue Light Phototherapy for the Treatment of Acne.</li>
+    </string>
+
+    <string name="blue_light2">
+        <li> Combination Blue (415 nm) and Red (633 nm) LED Phototherapy in the Treatment of Mild to Severe Acne Vulgaris. </li>
+        <li>\n\n Phototherapy with Blue (415 nm) and Red (660 nm) Light in the Treatment of Acne Vulgaris. </li>
+        <li>\n\n New Derm Just Recommended Adding Blue Light.</li>
+    </string>
+    <string name="warranty1">IT WILL NOT COVER WEAR AND TEAR INSTANCES, SUCH AS THE DEVICE LETTERING AND LOGO WEARING OFF DUE TO NORMAL WEAR. THE WARRANTY DOES NOT COVER MISTREATMENT OR MISUSE OF THE PRODUCT. WE RESERVE THE RIGHT TO REFUSE WARRANTY REPLACEMENT IF SUCH IS THE CASE. THE WARRANTY WILL NOT COVER MISUSE , SUCH AS THE DEVICE PAINT DAMAGED BY CREAMS , SERUMS OR OTHER SUBSTANCES.</string>
+    <string name="warranty2"><![CDATA[PER THE DEVICE LIFETIME WARRANTY, YOUR REPLACEMENT PRODUCT IS ABSOLUTELY FREE. YOUR OUT OF POCKET EXPENSES MAY INCLUDE: – A SHIPPING & HANDLING FEE OF R669.99 IN SA AND R999.99 OUTSIDE SA FOR THE REPLACEMENT PRODUCT TO BE MAILED BACK TO YOU. – SHIPPING AND HANDLING OF LUMIA NECK DEVICE IS EXTRA R100 – POTENTIAL CUSTOMS/BROKERAGE FEES FOR RECEIVING THE REPLACEMENT PRODUCT WE SHIP TO YOU (FOR INTERNATIONAL CUSTOMERS ONLY).]]></string>
+
+
+    <string name="add_reminder">Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+
+    <string name="reminder_title">AlarmReminder</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+    <string name="privacy">Privacy Policy of Renovar\n\nRenovar operates the renovar.health website, which provides the SERVICE.\nThis page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service, the Renovar website.
+    \nIf you choose to use our Service, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+    \nThe terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at renovar.health, unless otherwise defined in this Privacy Policy. Our Privacy Policy was created with the help of the Privacy Policy Template and the Privacy Policy Generator from TermsFeed plus the Refund Policy Template.
+    \n\nInformation Collection and Use\nFor a better experience while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to your name, phone number, and postal address. The information that we collect will be used to contact or identify you.
+    </string>
+
+
+    <string-array name="countries_arrays">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Cote d\'Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Faeroe Islands</item>
+        <item>Falkland Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>Former Yugoslav Republic of Macedonia</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Marianas</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Sqo Tome and Principe</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>The Bahamas</item>
+        <item>The Gambia</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Virgin Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>United States Minor Outlying Islands</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+</resources>

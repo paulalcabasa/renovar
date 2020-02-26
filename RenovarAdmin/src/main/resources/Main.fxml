@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXRippler?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import com.jfoenix.transitions.hamburger.HamburgerBackArrowBasicTransition?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="root" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <BorderPane>
+      <center>
+         <JFXDrawer fx:id="drawer" defaultDrawerSize="250.0" style="-fx-view-order: 1;" BorderPane.alignment="CENTER">
+            <styleClass>
+               <String fx:value="body" />
+            </styleClass>
+         </JFXDrawer>
+      </center>
+      <top>
+         <JFXToolbar BorderPane.alignment="CENTER">
+            <leftItems>
+               <JFXRippler maskType="CIRCLE" style="-fx-ripple-color:WHITE;">
+                  <StackPane fx:id="titleBurgerContainer">
+                     <JFXHamburger fx:id="titleBurger">
+                        <HamburgerBackArrowBasicTransition />
+                     </JFXHamburger>
+                  </StackPane>
+               </JFXRippler>
+               <Label fx:id="lblTitle" alignment="CENTER" text="Dashboard" textFill="#ffa875">
+                  <font>
+                     <Font name="Product Sans" size="18.0" />
+                  </font>
+               </Label>
+               <TextField fx:id="globalSearch" maxWidth="1.7976931348623157E308" promptText="Search" style="-fx-background-color: #eceff1; -fx-background-radius: 20;" visible="false">
+                  <font>
+                     <Font name="Questrial" size="16.0" />
+                  </font>
+               </TextField>
+            </leftItems>
+            <rightItems>
+               <JFXRippler maskType="CIRCLE" style="-fx-ripple-color:WHITE;">
+                  <StackPane fx:id="userContainer">
+                     <ImageView fitHeight="40" fitWidth="40" smooth="false">
+
+                     </ImageView>
+                  </StackPane>
+               </JFXRippler>
+            </rightItems>
+         </JFXToolbar>
+      </top>
+   </BorderPane>
+</StackPane>

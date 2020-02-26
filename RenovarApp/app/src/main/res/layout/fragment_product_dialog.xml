@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dialogs.ProductDialogFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Product Name"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/txtPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Price"
+                    android:textColor="@color/colorGold"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.daimajia.slider.library.SliderLayout
+                    android:id="@+id/sliderProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:auto_cycle="false" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/gradient_black"
+                    android:layout_gravity="bottom"/>
+
+                <com.daimajia.slider.library.Indicators.PagerIndicator
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="bottom"
+                    android:id="@+id/pagerIndicator">
+                </com.daimajia.slider.library.Indicators.PagerIndicator>
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/txtAmountQuantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="0.00"
+                    android:textColor="@color/colorGold"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:textAppearance="?android:textAppearanceLarge" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:icon="@drawable/ic_add_black_24dp"
+                        android:id="@+id/btnAdd"
+                        app:backgroundTint="@color/colorGold"
+                        app:iconGravity="textStart">
+                    </com.google.android.material.button.MaterialButton>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:icon="@drawable/ic_remove_black_24dp"
+                        android:id="@+id/btnRemove"
+                        app:backgroundTint="@color/colorGold"
+                        app:iconGravity="textStart">
+                    </com.google.android.material.button.MaterialButton>
+
+                </LinearLayout>
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ADD TO CART"
+                    android:layout_gravity="center"
+                    app:backgroundTint="@color/colorGold"
+                    app:icon="@drawable/ic_add_shopping_cart_black_24dp"
+                    app:iconTint="@android:color/white"
+                    android:id="@+id/btnAddToCart"
+                    android:layout_marginBottom="10dp">
+                </com.google.android.material.button.MaterialButton>
+
+                <TextView
+                    android:id="@+id/txtDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Product Description"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

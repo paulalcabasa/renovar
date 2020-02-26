@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorGold</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorGold</item>
+        <item name="android:fontFamily">@font/avenir_roman</item>
+    </style>
+
+    <style name="ToolbarAppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorGold</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorGold</item>
+        <item name="android:fontFamily">@font/avenir_roman</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#FFCC00</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">#5fa3d0</item>
+    </style>
+
+    <style name="Widget.DNA.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorDarkBlue</item>
+        <item name="android:theme">@style/AppTheme</item>
+        <item name="popupTheme">@style/Theme.MaterialComponents.Light</item>
+        <item name="titleTextAppearance">@style/TextAppearance.DNA.Toolbar</item>
+    </style>
+
+    <style name="TextAppearance.DNA.Toolbar" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/avenir_roman</item>
+    </style>
+
+
+    <style name="Widget.DNA.Backdrop" parent="">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="Widget.DNA.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/colorDarkBlue</item>
+        <item name="backgroundTint">@color/colorWhite</item>
+        <item name="android:stateListAnimator" tools:ignore="NewApi">
+            @animator/animate_list_backdrop
+        </item>
+    </style>
+
+    <style name="Widget.DNA.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/colorDarkBlue</item>
+    </style>
+</resources>

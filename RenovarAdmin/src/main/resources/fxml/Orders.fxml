@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.web.HTMLEditor?>
+
+<StackPane fx:id="root" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane hgap="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" vgap="10.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" percentHeight="5.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" percentHeight="50.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <GridPane>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ComboBox fx:id="cboStatus" prefWidth="150.0" promptText="Status" style="-fx-background-color: WHITE; -fx-border-color: GRAY; -fx-border-radius: 5;" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.valignment="CENTER" />
+               </children>
+            </GridPane>
+            <TableView fx:id="tableOrders" prefHeight="200.0" prefWidth="200.0" styleClass="cardShadowBox" stylesheets="@../css/dashboard.css" tableMenuButtonVisible="true" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <columns>
+                  <TableColumn fx:id="colStatus" editable="false" prefWidth="75.0" text="Status" />
+                  <TableColumn fx:id="colId" editable="false" prefWidth="100.0" text="Order No." />
+                  <TableColumn fx:id="colEmail" editable="false" prefWidth="180.0" text="Email" />
+                  <TableColumn fx:id="colFirstname" editable="false" prefWidth="100.0" text="Firstname" />
+                  <TableColumn fx:id="colLastname" editable="false" prefWidth="100.0" text="Lastname" />
+                  <TableColumn fx:id="colStreet1" editable="false" prefWidth="180.0" text="Street 1" />
+                  <TableColumn fx:id="colStreet2" editable="false" prefWidth="180.0" text="Street 2" />
+                  <TableColumn fx:id="colCountry" editable="false" minWidth="100.0" prefWidth="70.0" text="Country" />
+                   <TableColumn fx:id="colCity" editable="false" minWidth="100.0" prefWidth="70.0" text="City" />
+                  <TableColumn fx:id="colState" editable="false" minWidth="100.0" prefWidth="75.0" text="State" />
+                  <TableColumn fx:id="colZipCode" editable="false" prefWidth="60.0" text="Zip Code" />
+                  <TableColumn fx:id="colDate" editable="false" prefWidth="190.0" text="Date &amp; Time" visible="false" />
+                  <TableColumn fx:id="colTotal" editable="false" prefWidth="140.0" text="Grand Total Price" />
+               </columns>
+            </TableView>
+            <GridPane hgap="10.0" vgap="10.0" GridPane.rowIndex="2">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <GridPane GridPane.columnIndex="1">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                  </GridPane>
+                  <TableView fx:id="tableItemOrders" prefHeight="200.0" prefWidth="200.0" styleClass="cardShadowBox" stylesheets="@../css/dashboard.css">
+                    <columns>
+                      <TableColumn fx:id="colProduct" prefWidth="400.0" text="Product Name" />
+                      <TableColumn fx:id="colQuantity" prefWidth="75.0" text="Quantity" />
+                        <TableColumn fx:id="colGrandPrice" prefWidth="120.0" text="Total Price" />
+                    </columns>
+                  </TableView>
+                  <HTMLEditor fx:id="orderText" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" prefHeight="200.0" prefWidth="506.0" GridPane.columnIndex="1" />
+               </children>
+            </GridPane>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </GridPane>
+      <JFXProgressBar fx:id="progressBar" maxWidth="1.7976931348623157E308" StackPane.alignment="TOP_CENTER" />
+   </children>
+</StackPane>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ScienceFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/redefine"
+        android:scaleType="centerCrop"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_login">
+    </View>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_heating"
+                android:drawableTint="@color/colorRoseGold"
+                android:text=" Heating Therapy"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/heating"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_ultra"
+                android:drawableTint="@color/colorRoseGold"
+                android:text=" Ultrasonic"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ultrasonic"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorWhite" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_galvanic"
+                android:drawableTint="@color/colorRoseGold"
+                android:text=" Galvanic Treatment"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/galvanic"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_vibrate"
+                android:drawableTint="@color/colorRoseGold"
+                android:text=" Stimulation / Vibration"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vibration"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_radio"
+                android:drawableTint="@color/colorRoseGold"
+                android:text=" Radio Frequency Technology"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_infrared"
+                android:drawableTint="@color/colorRoseGold"
+                android:text=" Far Infrared Technology"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fit"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_led"
+                android:drawableTint="@color/colorRoseGold"
+                android:text=" LED"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/led"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorWhite" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

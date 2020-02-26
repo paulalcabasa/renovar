@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+platform :ios, '10.0'
+
+target 'Renovar' do
+    use_frameworks!
+    pod 'MaterialComponents'
+    pod 'Kingfisher', '~> 5.0'
+    pod 'FittedSheets'
+    pod 'Cards'
+    pod 'DeckTransition', '~> 2.0'
+    pod 'CameraManager', '~> 4.4'
+    pod 'SQLite.swift', '~> 0.12.0'
+    pod 'SwiftyJSON', '~> 4.0'
+    pod 'ImageSlideshow', '~> 1.7'
+    pod "ImageSlideshow/Alamofire"
+    pod 'EAIntroView'
+    pod "RQShineLabel"
+    pod 'SimpleAnimation'
+end

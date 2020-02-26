@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        android:layout_margin="5dp"
+        app:cardElevation="3dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="8:30 PM"
+               android:gravity="center"
+               android:background="#f2f2f2"
+               android:padding="5dp"
+               android:id="@+id/txtTime"
+               android:textAppearance="?android:textAppearanceLarge"
+               android:textColor="@color/colorBlack" />
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="10dp">
+
+               <!--<ImageView-->
+                   <!--android:id="@+id/imageTherapy"-->
+                   <!--android:layout_width="100dp"-->
+                   <!--android:layout_height="100dp"-->
+                   <!--android:layout_alignParentStart="true"-->
+                   <!--android:layout_alignParentLeft="true"-->
+                   <!--android:padding="10dp"-->
+                   <!--android:src="@drawable/singlef1" />-->
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_centerHorizontal="true"
+                   android:layout_centerVertical="true">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="DNA THERAPY FACIAL MASSAGER"
+                       android:textAppearance="?android:textAppearanceMedium"
+                       android:id="@+id/productName"
+                       android:textColor="@color/colorGold" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Everyday"
+                       android:textColor="@color/colorBlack"
+                       android:id="@+id/txtSchedule"
+                       android:textAppearance="?android:textAppearanceMedium" />
+
+               </LinearLayout>
+           </RelativeLayout>
+       </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
